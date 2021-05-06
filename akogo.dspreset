@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler>
+    <groups>
+        <group>
+            <sample rootNote="48" path="Samples/low_note_1.wav" />
+        </group>
+    </groups>
+</DecentSampler>
