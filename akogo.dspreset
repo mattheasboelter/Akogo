@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <DecentSampler>
-    <groups>
-        <group>
-            <sample rootNote="48" path="Samples/low_note_1.wav" />
+    <groups volume="12dB">
+        <group seqMode="random" loVel="1" hiVel="50">
+            <sample rootNote="51" loNote="51" seqPosition="1" path="Samples/akogo_51_vel_1_1.wav"/>
+            <sample rootNote="51" loNote="51" seqPosition="2" path="Samples/akogo_51_vel_1_2.wav"/>
+            <sample rootNote="51" loNote="51" seqPosition="3" path="Samples/akogo_51_vel_1_3.wav"/>
+        </group>
+
+        <group seqMode="random" loVel="51" hiVel="100">   
+            <sample rootNote="51" loNote="51" seqPosition="1" path="Samples/akogo_51_vel_2_1.wav"/>
+            <sample rootNote="51" loNote="51" seqPosition="2" path="Samples/akogo_51_vel_2_2.wav"/>
+            <sample rootNote="51" loNote="51" seqPosition="3" path="Samples/akogo_51_vel_2_3.wav"/>
+        </group>
+
+        <group seqMode="random" loVel="101" hiVel="127">  
+            <sample rootNote="51" loNote="51" seqPosition="1" path="Samples/akogo_51_vel_3_1.wav"/>
+            <sample rootNote="51" loNote="51" seqPosition="2" path="Samples/akogo_51_vel_3_2.wav"/>
+            <sample rootNote="51" loNote="51" seqPosition="3" path="Samples/akogo_51_vel_3_3.wav"/>
         </group>
     </groups>
 </DecentSampler>
+
