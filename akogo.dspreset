@@ -2,23 +2,85 @@
 
 <DecentSampler>
     <groups volume="12dB">
-        <group seqMode="random" loVel="1" hiVel="50">
-            <sample rootNote="51" loNote="51" seqPosition="1" path="Samples/akogo_51_vel_1_1.wav"/>
-            <sample rootNote="51" loNote="51" seqPosition="2" path="Samples/akogo_51_vel_1_2.wav"/>
-            <sample rootNote="51" loNote="51" seqPosition="3" path="Samples/akogo_51_vel_1_3.wav"/>
-        </group>
+        <!-- Velocity 1 -->
+            <!-- C2 36 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="36" loNote="36" hiNote="38" path="Samples/akogo_36_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="36" loNote="36" hiNote="38" path="Samples/akogo_36_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="36" loNote="36" hiNote="38" path="Samples/akogo_36_vel_1_3.wav"/>
+            </group>
 
-        <group seqMode="random" loVel="51" hiVel="100">   
-            <sample rootNote="51" loNote="51" seqPosition="1" path="Samples/akogo_51_vel_2_1.wav"/>
-            <sample rootNote="51" loNote="51" seqPosition="2" path="Samples/akogo_51_vel_2_2.wav"/>
-            <sample rootNote="51" loNote="51" seqPosition="3" path="Samples/akogo_51_vel_2_3.wav"/>
-        </group>
+            <!-- D#2 39 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="39" loNote="39" hiNote="40" path="Samples/akogo_39_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="39" loNote="39" hiNote="40" path="Samples/akogo_39_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="39" loNote="39" hiNote="40" path="Samples/akogo_39_vel_1_3.wav"/>
+            </group>
 
-        <group seqMode="random" loVel="101" hiVel="127">  
-            <sample rootNote="51" loNote="51" seqPosition="1" path="Samples/akogo_51_vel_3_1.wav"/>
-            <sample rootNote="51" loNote="51" seqPosition="2" path="Samples/akogo_51_vel_3_2.wav"/>
-            <sample rootNote="51" loNote="51" seqPosition="3" path="Samples/akogo_51_vel_3_3.wav"/>
-        </group>
+            <!-- F2 41 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="41" loNote="41" hiNote="45" path="Samples/akogo_41_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="41" loNote="41" hiNote="45" path="Samples/akogo_41_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="41" loNote="41" hiNote="45" path="Samples/akogo_41_vel_1_3.wav"/>
+            </group>
+
+            <!-- A#2 46 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="46" loNote="46" hiNote="48" path="Samples/akogo_46_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="46" loNote="46" hiNote="48" path="Samples/akogo_46_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="46" loNote="46" hiNote="48" path="Samples/akogo_46_vel_1_3.wav"/>
+            </group>
+
+            <!-- C#3 49 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="49" loNote="49" hiNote="52" path="Samples/akogo_49_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="49" loNote="49" hiNote="52" path="Samples/akogo_49_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="49" loNote="49" hiNote="52" path="Samples/akogo_49_vel_1_3.wav"/>
+            </group>
+
+            <!-- G#3 53 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="53" loNote="53" hiNote="55" path="Samples/akogo_63_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="53" loNote="53" hiNote="55" path="Samples/akogo_63_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="53" loNote="53" hiNote="55" path="Samples/akogo_63_vel_1_3.wav"/>
+            </group>
+
+            <!-- G#3 56 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="56" loNote="56" hiNote="64" path="Samples/akogo_56_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="56" loNote="56" hiNote="64" path="Samples/akogo_56_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="56" loNote="56" hiNote="64" path="Samples/akogo_56_vel_1_3.wav"/>
+            </group>
+
+
+
+            <!-- C4 72 
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="60" loNote="60" hiNote="64" path="Samples/akogo_72_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="60" loNote="60" hiNote="64" path="Samples/akogo_72_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="60" loNote="60" hiNote="64" path="Samples/akogo_72_vel_1_3.wav"/>
+            </group> -->
+
+            <!-- C4 72 -->
+            <group seqMode="round_robin" loVel="1">
+                <sample seqPosition="1" rootNote="65" loNote="65" hiNote="65" path="Samples/akogo_77_vel_1_1.wav"/>
+                <sample seqPosition="2" rootNote="65" loNote="65" hiNote="65" path="Samples/akogo_77_vel_1_2.wav"/>
+                <sample seqPosition="3" rootNote="65" loNote="65" hiNote="65" path="Samples/akogo_77_vel_1_3.wav"/>
+            </group>
+
+        <!-- Velocity 2 -->
+            <!--<group seqMode="random" loVel="39" hiVel="100">   
+                <sample rootNote="39" loNote="39" seqPosition="1" path="Samples/akogo_39_vel_2_1.wav"/>
+                <sample rootNote="39" loNote="39" seqPosition="2" path="Samples/akogo_39_vel_2_2.wav"/>
+                <sample rootNote="39" loNote="39" seqPosition="3" path="Samples/akogo_39_vel_2_3.wav"/>
+            </group> -->
+
+        <!-- Velocity 3 -->
+            <!-- <group seqMode="random" loVel="101" hiVel="127">  
+                <sample rootNote="39" loNote="39" seqPosition="1" path="Samples/akogo_39_vel_3_1.wav"/>
+                <sample rootNote="39" loNote="39" seqPosition="2" path="Samples/akogo_39_vel_3_2.wav"/>
+                <sample rootNote="39" loNote="39" seqPosition="3" path="Samples/akogo_39_vel_3_3.wav"/>
+            </group> -->
     </groups>
 </DecentSampler>
 
